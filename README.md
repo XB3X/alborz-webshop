@@ -1,2 +1,12 @@
-# alborz-webshop
-Webshop für Alborz – Fokus-App. DIR Übung SS2026, TU Wien.
+# Alborz
+
+Webshop für Alborz, eine fokus-app für studierende und büroangestellte.
+
+Dieses repository entsteht im Rahmen der Übung
+"Daten-, Informatik- und Rechtsschutz" (DIR), TU Wien, SS 2026.
+
+## Live-Website
+(folgt nach Deployment via GitHub Pages)
+
+## Status
+In Bearbeitung. Abgabe: 17. Mai 2026.
