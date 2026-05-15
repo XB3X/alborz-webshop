@@ -35,7 +35,7 @@ body {
 .skip-link:focus { left: 8px; top: 8px; }
 
 /* Layout-Container für alle Seiten */
-.container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
 
 /* Header & Navigation */
 header { border-bottom: 0.5px solid var(--color-border); padding: 20px 0; }
