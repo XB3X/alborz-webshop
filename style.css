@@ -79,3 +79,32 @@ footer a { color: var(--color-text-muted); }
   h1 { font-size: 32px; }
   nav ul { gap: 16px; font-size: 13px; }
 }
+/* Formulare */
+.form-group { margin-bottom: 20px; }
+.form-group label {
+  display: block; font-size: 14px; font-weight: 500;
+  margin-bottom: 6px; color: var(--color-text);
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%; max-width: 600px; padding: 10px 12px;
+  border: 0.5px solid rgba(0,0,0,0.35); border-radius: 4px;
+  background: #fff; font-family: var(--font-body);
+  font-size: 14px; color: var(--color-text);
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px; border-color: var(--color-primary);
+}
+.form-checkbox { display: flex; align-items: flex-start; gap: 10px; }
+.form-checkbox input { margin-top: 4px; }
+.form-checkbox label { margin-bottom: 0; font-weight: 400; font-size: 14px; line-height: 1.5; }
+.form-note { font-size: 13px; color: var(--color-text-muted); margin-bottom: 16px; }
+.mock-notice {
+  margin-top: 32px; padding: 16px;
+  background: rgba(45, 74, 110, 0.06);
+  border-left: 3px solid var(--color-primary);
+  font-size: 14px; color: var(--color-text);
+}
