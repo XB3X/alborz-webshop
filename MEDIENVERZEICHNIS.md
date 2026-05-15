@@ -49,7 +49,7 @@ Dieses Dokument listet sämtliche auf der Alborz-Website verwendeten Medien (Bil
 |---|---|
 | Datei | Inline-SVG in `about.html` und ggf. weiteren Seiten |
 | Quelle | Eigene Erstellung |
-| Urheber:in | [DEIN VOLLER NAME] |
+| Urheber:in | Behshad Baniadam |
 | Lizenz | Alle Rechte vorbehalten (Eigene Marke) |
 | Verwendung | Markenidentität der Marke „Alborz" |
 
