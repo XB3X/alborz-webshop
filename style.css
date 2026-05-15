@@ -1,0 +1,81 @@
+/* Alborz – Brand Stylesheet */
+/* Definiert Farben, Schriftarten und das Grundlayout für alle Seiten */
+
+/* Google Fonts laden – beide unter SIL Open Font License (frei nutzbar) */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@400;500&display=swap');
+
+/* Markenfarben und Schriftarten als CSS-Variablen */
+:root {
+  --color-primary: #2d4a6e;         /* Bergblau – Akzentfarbe */
+  --color-bg: #faf7f0;              /* Cremehintergrund */
+  --color-text: #1a1a1a;            /* Haupttext */
+  --color-text-muted: #4a4a4a;      /* Sekundärtext */
+  --color-border: rgba(0,0,0,0.12); /* Trennlinien */
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+/* Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Skip-Link für Tastatur-Nutzer (WCAG 2.4.1 Bypass Blocks) */
+.skip-link {
+  position: absolute; left: -9999px; top: 0;
+  background: var(--color-primary); color: var(--color-bg);
+  padding: 8px 16px; z-index: 100;
+}
+.skip-link:focus { left: 8px; top: 8px; }
+
+/* Layout-Container für alle Seiten */
+.container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+
+/* Header & Navigation */
+header { border-bottom: 0.5px solid var(--color-border); padding: 20px 0; }
+.nav-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.brand {
+  font-family: var(--font-heading); font-size: 22px; font-weight: 500;
+  letter-spacing: 1px; color: var(--color-text); text-decoration: none;
+}
+nav ul { display: flex; gap: 28px; list-style: none; flex-wrap: wrap; }
+nav a { color: var(--color-text-muted); text-decoration: none; font-size: 14px; }
+nav a:hover, nav a:focus { color: var(--color-primary); text-decoration: underline; }
+
+/* Typografie */
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; line-height: 1.2; margin-bottom: 16px; }
+h1 { font-size: 40px; }
+h2 { font-size: 28px; margin-top: 32px; }
+h3 { font-size: 20px; margin-top: 24px; }
+p { margin-bottom: 16px; color: var(--color-text-muted); max-width: 65ch; }
+a { color: var(--color-primary); }
+
+/* Buttons */
+.btn {
+  display: inline-block; padding: 12px 28px;
+  background: var(--color-primary); color: var(--color-bg);
+  text-decoration: none; border-radius: 4px;
+  font-size: 14px; font-weight: 500; border: none; cursor: pointer;
+}
+.btn:hover, .btn:focus { opacity: 0.9; }
+.btn-secondary {
+  background: transparent; color: var(--color-text);
+  border: 0.5px solid rgba(0,0,0,0.25);
+}
+
+/* Hauptbereich und Fußzeile */
+main { padding: 48px 0 80px; }
+footer { border-top: 0.5px solid var(--color-border); padding: 32px 0; font-size: 13px; color: var(--color-text-muted); }
+footer a { color: var(--color-text-muted); }
+
+/* Responsive für kleine Bildschirme */
+@media (max-width: 600px) {
+  h1 { font-size: 32px; }
+  nav ul { gap: 16px; font-size: 13px; }
+}
