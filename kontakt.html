@@ -24,10 +24,52 @@
     </div>
   </header>
 
-  <main id="main">
+<main id="main">
     <div class="container">
       <h1>Kontakt</h1>
-      <p>[Inhalt folgt]</p>
+
+      <p>Du hast Fragen, brauchst Unterstützung oder möchtest Feedback hinterlassen? Wir freuen uns auf deine Nachricht und antworten in der Regel innerhalb von zwei Werktagen.</p>
+
+      <h2>Kontaktdaten</h2>
+      <p>
+        E-Mail: <a href="mailto:kontakt@alborz.app">kontakt@alborz.app</a><br>
+        Telefon: <a href="tel:+435888457">+43 5 888 457</a><br>
+        Anschrift: Wiedner Hauptstraße 23, 1040 Wien, Österreich
+      </p>
+
+      <h2>Kontaktformular</h2>
+      <p>Alternativ kannst du uns über das folgende Formular erreichen. Felder mit <span aria-hidden="true">*</span> sind Pflichtfelder.</p>
+
+      <form action="#" method="post" aria-label="Kontaktformular">
+        <div class="form-group">
+          <label for="name">Name <span aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" required aria-required="true" autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-Mail-Adresse <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Betreff</label>
+          <input type="text" id="subject" name="subject">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Nachricht <span aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+        </div>
+
+        <div class="form-group form-checkbox">
+          <input type="checkbox" id="datenschutz" name="datenschutz" required aria-required="true">
+          <label for="datenschutz">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Beantwortung meiner Anfrage zu. <span aria-hidden="true">*</span></label>
+        </div>
+
+        <button type="submit" class="btn">Nachricht senden</button>
+      </form>
+
+      <p class="mock-notice"><strong>Hinweis:</strong> Dies ist eine Mock-Webseite im Rahmen einer Lehrveranstaltung. Das Formular ist nicht funktional &mdash; es werden keine Daten übertragen, verarbeitet oder gespeichert.</p>
     </div>
   </main>
 
