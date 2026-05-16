@@ -63,6 +63,47 @@ Dieses Dokument listet sämtliche auf der Alborz-Website verwendeten Medien (Bil
 | Lizenz | Alle Rechte vorbehalten (eigenes Werk) |
 | Verwendung | Visualisierung der Software-Oberfläche im Shop |
 
+## Bilder (Fotos)
+
+### mountain-iran.jpg
+
+| Feld | Wert |
+|---|---|
+| Datei | `images/mountain-iran.jpg` |
+| Quelle | Unsplash |
+| URL | https://unsplash.com/photos/a-snowy-mountain-with-trees-skkK39DzL1Q |
+| Urheber:in | Behnam Mohsenzadeh (@bmohsenzadeh) |
+| Lizenz | Unsplash License |
+| Lizenz-URL | https://unsplash.com/license |
+| Bearbeitung | Größenänderung auf max. 1600 px Breite, JPEG-Kompression ca. 75 % |
+| Verwendung | Atmosphärisches Bild auf der Startseite (geografischer Bezug zur Marke „Alborz") |
+
+### workspace-laptop.jpg
+
+| Feld | Wert |
+|---|---|
+| Datei | `images/workspace-laptop.jpg` |
+| Quelle | Unsplash |
+| URL | https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-white-desk-QwOp3yIPm38 |
+| Urheber:in | Marina Podrez (@marinapodrez) |
+| Lizenz | Unsplash License |
+| Lizenz-URL | https://unsplash.com/license |
+| Bearbeitung | Größenänderung auf max. 1600 px Breite, JPEG-Kompression ca. 75 % |
+| Verwendung | Visualisierung der Anwendungssituation (Arbeitsplatz) auf der Startseite |
+
+### slope-snow.jpg
+
+| Feld | Wert |
+|---|---|
+| Datei | `images/slope-snow.jpg` |
+| Quelle | Unsplash |
+| URL | https://unsplash.com/photos/a-man-riding-skis-down-a-snow-covered-slope-ooHiAngstSU |
+| Urheber:in | José Ignacio Pompé (@joseignaciopompe) |
+| Lizenz | Unsplash License |
+| Lizenz-URL | https://unsplash.com/license |
+| Bearbeitung | Größenänderung auf max. 1600 px Breite, JPEG-Kompression ca. 75 % |
+| Verwendung | Atmosphärisches Bild auf der Startseite (Konzentration, Ruhe, Bergmotiv) |
+
 ## Weitere Hinweise
 
 Es werden ausschließlich Medien eingesetzt, deren Lizenzbedingungen eine Verwendung im Rahmen einer kommerziellen Website ausdrücklich erlauben. Es werden keine Werke verwendet, deren Urheberrechte unklar oder ungesichert sind. Bei zukünftiger Aufnahme weiterer Medien (z. B. Produktscreenshots im Shop-Bereich) wird dieses Verzeichnis entsprechend ergänzt.
