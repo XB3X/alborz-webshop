@@ -43,7 +43,9 @@ header { border-bottom: 0.5px solid var(--color-border); padding: 20px 0; }
 .brand {
   font-family: var(--font-heading); font-size: 22px; font-weight: 500;
   letter-spacing: 1px; color: var(--color-text); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 10px;
 }
+.brand-icon { width: 36px; height: 18px; flex-shrink: 0; }
 nav ul { display: flex; gap: 28px; list-style: none; flex-wrap: wrap; }
 nav a { color: var(--color-text-muted); text-decoration: none; font-size: 14px; }
 nav a:hover, nav a:focus { color: var(--color-primary); text-decoration: underline; }
