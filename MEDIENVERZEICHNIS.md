@@ -53,6 +53,16 @@ Dieses Dokument listet sämtliche auf der Alborz-Website verwendeten Medien (Bil
 | Lizenz | Alle Rechte vorbehalten (Eigene Marke) |
 | Verwendung | Markenidentität der Marke „Alborz" |
 
+### App-Mockup (Shop-Seite)
+
+| Feld | Wert |
+|---|---|
+| Datei | Inline-SVG in `shop.html` |
+| Quelle | Eigene Erstellung |
+| Urheber:in | [DEIN VOLLER NAME] |
+| Lizenz | Alle Rechte vorbehalten (eigenes Werk) |
+| Verwendung | Visualisierung der Software-Oberfläche im Shop |
+
 ## Weitere Hinweise
 
 Es werden ausschließlich Medien eingesetzt, deren Lizenzbedingungen eine Verwendung im Rahmen einer kommerziellen Website ausdrücklich erlauben. Es werden keine Werke verwendet, deren Urheberrechte unklar oder ungesichert sind. Bei zukünftiger Aufnahme weiterer Medien (z. B. Produktscreenshots im Shop-Bereich) wird dieses Verzeichnis entsprechend ergänzt.
