@@ -6,7 +6,7 @@ Dieses repository entsteht im Rahmen der Übung
 "Daten-, Informatik- und Rechtsschutz" (DIR), TU Wien, SS 2026.
 
 ## Live-Website
-(folgt nach Deployment via GitHub Pages)
+https://xb3x.github.io/alborz-webshop/index.html
 
 ## Status
 In Bearbeitung. Abgabe: 17. Mai 2026.
