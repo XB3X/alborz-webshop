@@ -9,4 +9,4 @@ Dieses repository entsteht im Rahmen der Übung
 https://xb3x.github.io/alborz-webshop/index.html
 
 ## Status
-In Bearbeitung. Abgabe: 17. Mai 2026.
+Abgabe: 17. Mai 2026.
